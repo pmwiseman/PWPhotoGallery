@@ -10,7 +10,6 @@
 
 @interface PWPhotoGalleryCollectionViewController : UICollectionViewController <UIScrollViewDelegate>
 
-@property (strong, nonatomic) NSIndexPath *selString;
 @property (strong, nonatomic) NSMutableArray *photoArray;
 
 @end
