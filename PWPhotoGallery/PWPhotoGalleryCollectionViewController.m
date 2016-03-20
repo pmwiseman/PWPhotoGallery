@@ -101,6 +101,7 @@ static NSString * const reuseIdentifier = @"Cell";
 //Method called when programmatic scrolling ends
 -(void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView
 {
+    //Generalized can add buttons
     int currentIndex = self.newPage;
     if(self.currentIndexPath != [NSIndexPath indexPathForItem:currentIndex inSection:0]){
         self.currentIndexPath = [NSIndexPath indexPathForItem:currentIndex inSection:0];
@@ -110,6 +111,7 @@ static NSString * const reuseIdentifier = @"Cell";
 //Method called when user scrolling ends
 -(void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
 {
+    //Generalized for scrolling
     int currentIndex = self.newPage;
     if(self.currentIndexPath != [NSIndexPath indexPathForItem:currentIndex inSection:0]){
         self.currentIndexPath = [NSIndexPath indexPathForItem:currentIndex inSection:0];
