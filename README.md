@@ -1,4 +1,7 @@
 # PWPhotoGallery
+
+App Store Link:  https://itunes.apple.com/us/app/cropcapt/id1101942465?mt=8
+
 Example UICollectionView Photo Gallery Setup (Full Screen).  This collection view utilizes a custom paging method that will allow snapping to the left edge of a cell.  The benefit of having a custom paging method is it allows the user to specify spacing between the cells.
 
 # General
